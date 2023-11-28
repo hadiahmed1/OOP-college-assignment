@@ -20,7 +20,7 @@ class CounterThread extends Thread {
     }
 }
 
-public class Main {
+public class Main10 {
     public static void main(String[] args) {
         // Create threads with different priorities
         CounterThread highPriorityThread = new CounterThread("HighPriorityThread", Thread.MAX_PRIORITY);

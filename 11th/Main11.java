@@ -61,13 +61,15 @@ class Consumer extends Thread {
 
     @Override
     public void run() {
-        while (true) {
+        int i=100;
+        while (i>0) {
             sharedResource.consume();
+            i--;
         }
     }
 }
 
-public class Main {
+public class Main11 {
     public static void main(String[] args) {
         SharedResource sharedResource = new SharedResource();
 

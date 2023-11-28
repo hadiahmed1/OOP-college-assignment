@@ -29,7 +29,7 @@ class DataStructure<T> implements Iterable<T> {
     }
 }
 
-public class Main {
+public class Main7 {
     public static void main(String[] args) {
         Integer[] array = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
         DataStructure<Integer> dataStructure = new DataStructure<>(array);

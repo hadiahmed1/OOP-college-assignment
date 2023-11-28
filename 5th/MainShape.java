@@ -1,4 +1,4 @@
-class Main {
+class MainShape {
     public static void main(String[] args) {
         Point a = new Point();// Origin
         Point b = new Point(0, 4);

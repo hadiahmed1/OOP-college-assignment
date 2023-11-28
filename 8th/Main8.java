@@ -20,7 +20,7 @@ class TestPrime {
     }
 }
 
-public class Main {
+public class Main8 {
     public static void main(String[] args) {
         TestPrime testPrime = new TestPrime();
 
